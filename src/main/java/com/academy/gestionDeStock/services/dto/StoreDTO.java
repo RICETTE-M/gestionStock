@@ -1,25 +1,24 @@
 package com.academy.gestionDeStock.services.dto;
 
-
-
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 
-import java.time.Instant;
-
 @Getter
 @Setter
 @AllArgsConstructor
-public class CategoryDTO {
+public class StoreDTO {
 
     private Long id;
 
-    private String name;
+    private String nameStore;
 
-    private String description;
+    private String address;
 
-    private Instant dateCreation;
+    private String phone;
+
+    private String features;
 
     private String slug;
 }
+

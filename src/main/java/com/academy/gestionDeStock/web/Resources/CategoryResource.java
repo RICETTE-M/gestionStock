@@ -1,9 +1,7 @@
-package com.academy.gestionDeStock.webResource;
+package com.academy.gestionDeStock.web.Resources;
 
-import com.academy.gestionDeStock.repositories.CategoryRepository;
 import com.academy.gestionDeStock.services.CategoryService;
 import com.academy.gestionDeStock.services.dto.CategoryDTO;
-import com.academy.gestionDeStock.services.dto.ProductDTO;
 import com.academy.gestionDeStock.services.mapper.CategoryMapper;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

@@ -1,5 +1,4 @@
-package com.academy.gestionDeStock.services;
-
+package com.academy.gestionDeStock.services.impl;
 import com.academy.gestionDeStock.models.Product;
 import com.academy.gestionDeStock.repositories.ProductRepository;
 import com.academy.gestionDeStock.services.dto.ProductDTO;
@@ -47,4 +46,5 @@ public class ProductServiceImplTest {
 //        ProductDTO productService.save(product);
 //
 //    }
+
 }

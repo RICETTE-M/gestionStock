@@ -1,4 +1,4 @@
-package com.academy.gestionDeStock.webResource;
+package com.academy.gestionDeStock.web.Resources;
 
 import com.academy.gestionDeStock.services.ProductService;
 import com.academy.gestionDeStock.services.dto.ProductDTO;
